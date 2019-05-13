@@ -2,14 +2,30 @@
   text-align: center;
 }
 
+body {
+  background: #009900;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
+.Bar{
+  width: 100%;
+  background-color: white;
+  color:black;
+  font-family: inherit;
+}
+.Oval {
+  width: 160px;
+  height: 80px;
+  background: #a84909;
+  border-radius: 50%;
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5eff00da;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

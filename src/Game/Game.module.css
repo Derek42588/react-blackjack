@@ -1,0 +1,24 @@
+.default {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redText {
+    color: red;
+}
+.row {
+    margin: 0 -5px;
+    display: block;
+}
+.playerHands {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }

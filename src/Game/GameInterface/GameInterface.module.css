@@ -1,0 +1,23 @@
+.gameInterface{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction:column;
+    color: white;
+}
+button {
+    padding: 5px;
+    margin-right: 20px;
+}
+h1 {
+    text-transform: uppercase;
+}
+.hud {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.hud h3 {
+    padding: 10px;
+}
