@@ -360,15 +360,6 @@ class Game extends Component {
        let splittable = false;
        let playerScore = [];
        
-       let stackCheck = (this.state.playerStack < this.state.playerBet);
-
-       if (stackCheck) {
-         console.log("yoyo")
-         this.setState({
-           gameState: "getBuyIn"
-         })
-       }
-
       //  const randCards = []
 
       //  for (let i = 0; i < 4; i ++ ) {

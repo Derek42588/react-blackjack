@@ -37,7 +37,7 @@ export function check(player, dealer, playerScore, splittable) {
                     }
                     break;
                 case 13:
-                    if (playerAce && doubleable) {
+                    if (playerAce && doubleableg) {
                         suggested = "hit";
                     } else {
                         suggested = "stand";
